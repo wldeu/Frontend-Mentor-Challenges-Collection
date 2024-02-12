@@ -1,0 +1,100 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--off-black);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+}
+
+.profile {
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--dark-grey);
+  margin: 40px 140px 0 500px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+ img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 20px 0;
+}
+
+ h3 {
+  font-size: 14px;
+  color: var(--green);
+  margin: 5px 0 20px;
+}
+
+ p {
+  padding-bottom: 25px;
+}
+
+.social-links a {
+  width: 200px;
+  display: block;
+  margin: 0 auto 10px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--grey);
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.social-links a:active{
+  background-color: var(--green);
+  color: var(--dark-grey);
+}
+
+
+
+
+
+/* Default style */
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* - Mobile: 375px */
+@media only screen and (max-width: 375px) {
+  .profile {
+    margin: 40px auto; /* Center the profile section horizontally */
+    width: 90%; /* Adjust width to fit the screen */
+    padding: 0 10px; /* Add some padding to the sides for spacing */
+    text-align: center;
+  }
+}
+
+/* - Desktop: 1440px */
+
+@media only screen and (max-width: 1400px) {
+  /* .profile {
+  } */
+
+}

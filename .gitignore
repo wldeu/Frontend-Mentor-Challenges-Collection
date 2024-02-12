@@ -15,5 +15,7 @@
 .DS_Store
 .prettierignore
 
-# md Is under development
-.md*
+
+# Unfinished challenge
+
+recipe-page
