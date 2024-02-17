@@ -1,0 +1,123 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* Colors */
+:root {
+  --primary-nutmeg: hsl(14, 45%, 36%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+/* Global styles */
+body {
+  background-color: var(--eggshell);
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Card styles */
+.onlytext {
+    padding-left: 30px;
+  }
+
+.card {
+  background-color: var(--white);
+  margin: 125px auto;
+  max-width: 800px;
+  border-radius: 15px;
+  padding: 40px 20px;
+}
+
+
+
+.topimage {
+  width: 100%;
+  border-radius: 18px;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+
+}
+
+/* Article styles */
+.article-heading {
+  font-family: 'Young Serif', serif;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.article-description {
+  max-width: 650px;
+  color: var(--wenge-brown);
+}
+
+#preparation-time {
+    background-color: var(--rose-white);
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+
+#preparation-time h2 {
+    color: var(--dark-raspberry);
+    font-size: 20px;
+}
+
+.highlighted-text {
+    font-weight: bold;
+    color: var(--dark-charcoal);
+}
+
+h2 {
+    color: var(--primary-nutmeg);
+}
+
+#instructions {
+    max-width: fit-content;
+}
+li::marker {
+    color: var(--nutmeg);
+    font-weight: bold;
+  }
+
+  li{
+    padding-left: 15px;
+  }
+  
+
+
+.nutrients {
+    padding: 20px;
+}
+  
+.nutrient-value {
+    font-weight: bold;
+    padding-left: 250px;
+    color: var(--primary-nutmeg);
+}
+
+/* 
+Based on the example from: 
+https://stackoverflow.com/questions/13624276/how-to-separate-table-rows-with-a-line/13624319#13624319?newreg=c64a9ac44dae4ce2bfebe72674386f7f
+*/
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table tr {
+    border-bottom: 1px solid var(--light-grey);
+  }
+  
+  table tr:last-child {
+    border: 0;
+  }
+  
+  
+  
+
+  
