@@ -1,0 +1,103 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900');
+
+/* Colors */
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+    
+  /* (main BG) */
+  --very-dark-blue-main: hsl(217, 54%, 11%);
+  /* (card BG) */
+  --very-dark-blue-card: hsl(216, 50%, 16%);
+  /* (line) */
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue-main);
+    color: var(--white);
+}
+
+ article {
+    margin: 25px;
+}
+.card {
+  border: solid var(--very-dark-blue-card);
+  background-color: var(--very-dark-blue-card);
+  
+
+  width: 290px;
+  border-radius: 18px;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin: 0 auto; 
+
+
+}
+
+
+.box-pic {
+  width: 250px;
+  border-radius: 8px;
+
+}
+
+
+h1 {
+  font-size: 20px;
+}
+.hover-cyan:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.soft-b {
+  width: 300px;
+  color: var(--soft-blue);
+}
+
+.status-icon-eth {
+  margin-right: 5px;
+}
+
+.status-icon-time {
+  margin-left: 100px;
+}
+
+.eth {
+color: var(--cyan);
+}
+
+
+.time {
+  color: var(--soft-blue);
+}
+
+/* https://stackoverflow.com/questions/6382023/changing-the-color-of-an-hr-element */
+hr {
+  border: 0;
+  border-top: 1px solid var(--very-dark-blue-line);
+  margin: 15px 0;
+}
+
+.author .cyan{
+  margin-right: 5px;
+}
+
+.author{
+  padding-right: 2px;
+  
+}
+.author-pic {
+  display: flex;
+  max-width: 30px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+
+  
+}
+
+
