@@ -89,6 +89,8 @@ hr {
 
 .author{
   padding-right: 2px;
+  display: flex;
+  align-items: center;
   
 }
 .author-pic {
@@ -96,8 +98,12 @@ hr {
   max-width: 30px;
   border: 1px solid var(--white);
   border-radius: 50%;
+  margin-right: 10px; /* Adjust the margin as needed */
+
 
   
 }
+
+
 
 
