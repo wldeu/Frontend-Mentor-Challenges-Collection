@@ -25,6 +25,7 @@ body {
     margin: 25px;
 }
 .card {
+  margin-top: 28px;
   border: solid var(--very-dark-blue-card);
   background-color: var(--very-dark-blue-card);
   
